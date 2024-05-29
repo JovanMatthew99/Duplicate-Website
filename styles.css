@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+nav {
+    background-color:
+        #2e94ff;
+    color: white;
+    grid-column: span 8;
+    display: grid;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    grid-template-rows: 100px;
+
+}
+
+.header_main {
+    display: inline;
+    margin-right: 55%;
+    margin-left: 5%;
+}
+
+
+
+img {
+    grid-column: span 8;
+}
+
+.navlist{
+display: inline;
+}
+
+
+
+
+.perks {
+    display: flex;
+    grid-column: 2 / span 6;
+    justify-self: center
+
+}
+
+.find {
+    display: grid;
+    grid-column: 2 / span 6;
+    text-align: center;
+
+
+
+}
+
+h1 {
+    font-size: 24;
+    color: #2e94ff;
+    text-align: center;
+}
+
+h2 {
+    font-size: 15;
+    color: #2e94ff;
+}
+
+button {
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0;
+    justify-self: center;
+
+}
+
+.about {
+    display: grid;
+    grid-column: 2 / span 6;
+    justify-self: center;
+
+}
+
+.aboutc{
+    grid-column: 4 / 6;
+}
+
+.grid_container {
+    display: grid;
+    grid-column: 2 / span 6;
+}
+
+.about_gallery {
+    display: flex;
+    gap: 20px;
+
+
+
+}
+
+.aboutg {
+    border-radius: 10px;
+}
+
+.join {
+    display: grid;
+    grid-column: span 8;
+    margin: 3%;
+    background-color: #2e94ff;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.what{
+    grid-column: span 8;
+}
+.grid_container2 {
+    display: grid;
+    grid-column: 2 / span 6;
+}
+
+.members {
+    display: flex;
+    gap: 20px;
+}
+
+.member1 {
+    border: 2px grey solid;
+    border-radius: 30px;
+    padding: 5%;
+    width: 23rem;
+    height: 20rem;
+    background-image: linear-gradient(0deg,
+            #eef3f9 45%, rgb(255, 255, 255) 20%);
+}
+
+.members2 {
+    float: inline-end;
+    border-radius: 40%;
+    margin-top: 30%;
+}
+
+.sally {
+    margin-top: 3%;
+}
+
+.rochelle {
+    margin-top: 45%;
+}
+
+
+
+
+.footer1{
+    display: grid;
+    grid-column: 2;
+    text-decoration: none;
+    border-top: solid;
+}
+.footer2{
+    display: grid;
+    grid-column: 4;
+}
+.footer3{
+    display: grid;
+    grid-column: 6;
+}
+
+.footer4{
+    display: grid;
+    grid-column: 8;
+}
+
+@media (max-width: 600px) {
+    body {
+        grid-template-columns: 1;
+    }
+}
